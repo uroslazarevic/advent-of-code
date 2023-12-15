@@ -1,9 +1,8 @@
 {
   "dependencies": {
-    "nodemon": "^3.0.2",
-    "promise-path": "^1.4.4"
+    "nodemon": "^3.0.2"
   },
   "scripts": {
-    "start": "nodemon 2023/1/solution.js localhost 8087 "
+    "dev": "nodemon localhost 8087 2023/2/solution.js"
   }
 }
